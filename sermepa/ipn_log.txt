@@ -1,0 +1,6 @@
+
+[02/18/2015 9:21 AM] SERMEPA RESPONSE - FAIL!
+IPN POST Vars from Sermepa:
+Ds_Merchant_MerchantName=Comercio Pruebas, Ds_Merchant_Titular=CDAD DZOGCHEN INTERNACIONAL, Ds_Merchant_MerchantCode=332570308, Ds_Merchant_Terminal=001, Ds_Merchant_Currency=978, Ds_Merchant_ConsumerLanguage=0, Ds_Merchant_TransactionType=0, Ds_Merchant_Amount=1000, Ds_Merchant_Order=000310, Ds_Merchant_UrlOK=http://localhost/nik/index.php?option=com_jse_donation&task=donate.payment_return&id=310&token=681470e7dad5e6ceb9cdc345b5bd755c, Ds_Merchant_UrlKO=http://localhost/nik/index.php?option=com_jse_donation&task=donate.payment_cancel&id=310&token=681470e7dad5e6ceb9cdc345b5bd755c, Ds_Merchant_ProductDescription=Swimming Pool Construction, Ds_Merchant_MerchantSignature=738A11C2A7421E05F62903A5073437901F84685F, Ds_Merchant_MerchantURL=http://localhost/nik/index.php?option=com_jse_donation&task=donate.payment_notify&payment_method=sermepa, task=payment_notify, 
+------------------------------------------------------------------------------
+

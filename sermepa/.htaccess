@@ -1,0 +1,12 @@
+# @version		$Id$
+# @author		Nguyen Dinh Luan
+# @package		Joomla!
+# @subpackage	JS Payment
+# @copyright	Copyright (C) 2008 - 2011 by Joomseller Solutions. All rights reserved.
+# @license		GNU/GPL.
+
+
+# Note: Having a .htaccess prevents users from directly
+# accessing the files in your data folder
+
+deny from all

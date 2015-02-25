@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6.0" type="plugin" group="jsepayment" method="upgrade">
+	<name>Jse Payment - Sermepa</name>
+	<author>Nik</author>
+	<creationDate>Oct 2014</creationDate>
+	<copyright>Copyright (C) 2014 . All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<authorEmail>kalah77@mail.ru</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0.0</version>
+	<description>Sermepa payment method for Joomseller Donation component</description>
+	<files>
+		<filename plugin="sermepa">sermepa.php</filename>
+		<filename>index.html</filename>
+		<folder>sermepa</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+
+				<field name="Ds_Merchant_MerchantName" type="text" size="50" default="" label="Merchant Name" description="Merchant Name" />
+			
+			<!--	<field name="mode" type="radio" class="btn-group" default="test" label="Mode" description="Mode of the transactions">
+					<option value="test">Test</option>
+					<option value="live">Live</option> 
+				</field>                                   -->
+				<field name="Ds_Merchant_Titular" type="text" size="50" default="" label="Merchant Titular" description="Merchant Titular" />
+				<field name="Ds_MerchantCode" type="text" size="50" default="" label="Merchant Code" description="Merchant Code" />
+				<field name="Ds_MerchantSignature" type="text" size="50" default="" label="Merchant Signature" description="Merchant Signature" />
+				<field name="Ds_Merchant_Terminal" type="text" size="30" default="001" label="Merchant Terminal" description="Merchant Terminal" />
+				<field name="currency" type="list" class="btn-group" default="978" label="Currency" description="Merchant Currency">
+					<option value="978">Euro</option>
+					<option value="840">Dollar</option>
+					<option value="826">British Pound</option>
+					<option value="392">Yen</option>
+					<option value="32">Argentinean Austral</option>
+					<option value="124">Canadian Dollar</option>
+					<option value="152">Chilean Peso</option>
+					<option value="356">Indian Rupee</option>
+					<option value="484">Mexican New Peso</option>
+					<option value="604">Peruvian Sol</option>
+					<option value="756">Swiss Franc</option>
+					<option value="986">Brazilian Real</option>
+					<option value="937">Venezuelan Bolivar</option>
+					<option value="949">Turkish Lira</option>
+				</field>
+				<field name="url" type="text" size="50" default="" label="Bank connect url" description="Bank connect url" />
+
+				<field name="encryption" type="list" class="btn-group" default="sha1-enhanced" label="Method of encryption" description="Method of encryption">
+					<option value="sha1">SHA</option>
+					<option value="sha1-enhanced">Enhanced SHA</option>
+				</field>
+
+				<field name="Ds_Merchant_ConsumerLanguage" type="list" class="btn-group" default="0" label="language" description="language">
+					<option value="0">Client</option>
+					<option value="1">Spanish</option>
+					<option value="2">English</option>
+					<option value="3">Catalan</option>
+					<option value="4">French</option>
+					<option value="5">German</option>
+					<option value="6">Dutch</option>
+					<option value="7">Italian</option>
+					<option value="8">Swedish</option>
+					<option value="9">Portuguese</option>
+					<option value="10">Valencian</option>
+					<option value="11">Polish</option>
+					<option value="12">Galician</option>
+					<option value="13">Basque</option>
+				</field>
+
+<!--				<field name="merchant_image" type="text" size="50" default="" label="Merchant image" description="Your merchant image url" />
+				<field name="payment_image" type="text" size="50" default="" label="Payment logo" description="Sermepa logo URL to show at payment listing" />
+
+				<field name="ipn_log" type="radio" class="btn-group" default="1" label="Log IPN data" description="Log all payment information to plugins/jspayment/sermepa/ipn_log.txt">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>      -->
+			</fieldset>
+		</fields>
+	</config>
+</extension>
